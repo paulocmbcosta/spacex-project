@@ -87,8 +87,15 @@ footer {
       color: $color-hover;
     }
   }
+}
 
-
+@media (max-width: 425px) {
+  .footer {
+    display: block;
+    text-align: center;
+    margin: auto;
+    
+  }
 }
 
 

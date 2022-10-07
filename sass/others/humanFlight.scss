@@ -1,0 +1,175 @@
+.main-header3 {
+  background-image: url('../../img/humanFlight/01.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 200px;
+
+  h2 {
+    font-size: 75px;
+  }
+
+  h6 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 500px) {
+  .title3 > h2 {
+    font-size: 45px;
+  }
+
+}
+
+
+.section11 {
+  background-color: black;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  p {
+    margin: 0;
+    color: white;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.section12 {
+  background-image: url('../../img/humanFlight/02.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 10%;
+}
+
+.title4 {
+
+  h2 {
+    font-size: 50px;
+  }
+
+  h6 {
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+
+.section13 {
+  background-image: url('../../img/humanFlight/03.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  
+}
+
+.title5 {
+
+  h2 {
+    font-size: 50px;
+  }
+
+  h6 {
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+
+.section14 {
+  background-image: url('../../img/humanFlight/04.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20%;
+}
+
+.title5 {
+
+  h2 {
+    font-size: 50px;
+  }
+
+  h6 {
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+
+.section15 {
+  background-image: url('../../img/humanFlight/05.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.title6 {
+
+  h2 {
+    font-size: 50px;
+  }
+
+  h6 {
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+
+.section16 {
+  background-color: black;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  p {
+    margin: 0;
+    padding-bottom: 15px;
+    color: white;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}

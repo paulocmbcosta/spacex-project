@@ -80,6 +80,13 @@ footer {
   color: #b9b9b9;
 }
 
+@media (max-width: 425px) {
+  .footer {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+}
 .main-header2 {
   background-image: url("../../img/falcon9/01.jpg");
   height: 100vh;
@@ -91,10 +98,9 @@ footer {
 }
 
 .section5 {
-  position: relative;
-  top: 300px;
   display: flex;
   justify-content: center;
+  padding-top: 200px;
 }
 
 .title2 {
@@ -102,27 +108,46 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 640px;
+  text-align: center;
 }
 .title2 h2 {
   font-size: 80px;
   color: white;
   font-weight: 700;
   font-family: "Rubik", sans-serif;
+  text-shadow: 1px 1px 1px black;
 }
 .title2 h6 {
   font-size: 18px;
+  text-shadow: 1px 1px 1px black;
+}
+
+@media (max-width: 420px) {
+  .title2 > h2 {
+    font-size: 45px;
+  }
+}
+.sectionNumbers {
+  background-color: black;
 }
 
 .numbers {
   background-color: black;
-  height: 300px;
+  width: 100%;
+  max-width: 1000px;
+  height: 25vh;
   text-align: center;
   padding-top: 70px;
   display: flex;
   justify-content: space-around;
 }
 
+@media (max-width: 680px) {
+  .numbers {
+    display: block;
+    height: 45vh;
+  }
+}
 .number1 h1 {
   color: white;
   font-size: 70px;
@@ -140,8 +165,8 @@ footer {
 }
 
 .descriptionFalcon9 {
-  position: relative;
-  top: 250px;
+  display: flex;
+  padding-top: 120px;
 }
 .descriptionFalcon9 p {
   color: white;
@@ -150,8 +175,22 @@ footer {
   line-height: 50px;
 }
 
+@media (max-width: 570px) {
+  .descriptionFalcon9 > p {
+    font-size: 16px;
+    line-height: 35px;
+  }
+}
 .section6 {
   background-color: black;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.carrossel101 {
+  background-image: url("../../img/falcon9/03.jpg");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,6 +201,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-bottom: 100px;
   top: 30%;
 }
 
@@ -184,6 +224,14 @@ footer {
   text-align: left;
 }
 
+.carrossel102 {
+  background-image: url("../../img/falcon9/04.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .textSlide2 {
   max-width: 400px;
   display: flex;
@@ -193,6 +241,14 @@ footer {
 }
 .textSlide2 p {
   text-align: left;
+}
+
+.carrossel103 {
+  background-image: url("../../img/falcon9/05.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .textSlide3 {
@@ -206,6 +262,14 @@ footer {
   text-align: left;
 }
 
+.carrossel104 {
+  background-image: url("../../img/falcon9/06.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .textSlide4 {
   max-width: 400px;
   display: flex;
@@ -215,6 +279,14 @@ footer {
 }
 .textSlide4 p {
   text-align: left;
+}
+
+.carrossel105 {
+  background-image: url("../../img/falcon9/07.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .textSlide5 {
@@ -259,6 +331,54 @@ footer {
   background-color: black;
 }
 
+.carrossel901 {
+  background-image: url("../../img/falcon9/09.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.carrossel902 {
+  background-image: url("../../img/falcon9/10.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.carrossel903 {
+  background-image: url("../../img/falcon9/11.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.carrossel904 {
+  background-image: url("../../img/falcon9/12.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.carrossel905 {
+  background-image: url("../../img/falcon9/13.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.carrossel906 {
+  background-image: url("../../img/falcon9/14.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .section10 {
   background-color: black;
   height: 100vh;
@@ -274,6 +394,165 @@ footer {
   font-size: 16px;
   color: #b9b9b9;
   text-decoration: none;
+}
+.section10 button {
+  margin-top: 10px;
+}
+
+@media (max-width: 425px) {
+  .footer {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+}
+.main-header3 {
+  background-image: url("../../img/humanFlight/01.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 200px;
+}
+.title3 h2 {
+  font-size: 75px;
+}
+.title3 h6 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+@media (max-width: 500px) {
+  .title3 > h2 {
+    font-size: 45px;
+  }
+}
+.section11 {
+  background-color: black;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.section11 p {
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+.section11 a {
+  text-decoration: none;
+}
+
+.section12 {
+  background-image: url("../../img/humanFlight/02.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 10%;
+}
+
+.title4 h2 {
+  font-size: 50px;
+}
+.title4 h6 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.section13 {
+  background-image: url("../../img/humanFlight/03.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.title5 h2 {
+  font-size: 50px;
+}
+.title5 h6 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.section14 {
+  background-image: url("../../img/humanFlight/04.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20%;
+}
+
+.title5 h2 {
+  font-size: 50px;
+}
+.title5 h6 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.section15 {
+  background-image: url("../../img/humanFlight/05.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.title6 h2 {
+  font-size: 50px;
+}
+.title6 h6 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.section16 {
+  background-color: black;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.section16 p {
+  margin: 0;
+  padding-bottom: 15px;
+  color: white;
+  text-align: center;
+}
+.section16 a {
+  text-decoration: none;
+}
+.section16 button {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
